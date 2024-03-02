@@ -80,3 +80,30 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+ .second-section{
+    height: 450px;
+}
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+}
+.blue-border{
+    height: 150px;
+    width: 150px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    margin: 15px auto;
+
+}
+
+.container{
+    text-align: center;
+    width: 700px;
+    display: flex;
+    margin:0px auto;
+    gap: 40px;
+}
