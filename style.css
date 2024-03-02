@@ -6,26 +6,25 @@
 }
 
 .header {
+    height: 60px;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
-    background-color: #1F2937;
     align-items: center;
-
-}
-
-.company-logo {
-    color: white;
-    font-weight: 900;
-    font-size: large;
-    font-size: 24px;
+    padding: 0px 200px;
 }
 
 .nav-links-ul {
-    font-size: large;
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+}
+
+.company-logo {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    color: white;
 }
 
 a {
@@ -34,34 +33,40 @@ a {
 }
 
 .First-section {
-    height: 500px;
     background-color: #1F2937;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-width {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px;
+    width: 900px;
 }
 
 .First-section-Content {
-    padding: 0px 20px;
-    margin-left: 40px;
+    width: 350px;
 }
 
-.First-section-Content h1 {
-    color: white;
+.First-section-para {
+    width: 350px;
+}
+
+.h1 {
     font-size: 48px;
     font-weight: bolder;
-    max-width: 400px;
+    color: white;
 }
 
-.First-section-Content p {
-    color: #E5E7EB;
-    margin-bottom: 10px;
-    font-size: 18px;
-    max-width: 600px;
+.p {
+    color: rgb(240, 232, 232);
 }
 
-.First-section-Content button {
+.button {
+    margin-top: 7px;
     font-size: 16px;
     border-radius: 24px;
     border-style: none;
@@ -71,14 +76,15 @@ a {
     width: 100px;
 }
 
-.First-section-para {
-    color: white;
+.fade-border {
     height: 200px;
-    width: 600px;
-    background-color: gray;
+    width: 300px;
+    background-color: #E5E7EB;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 10px;
 }
 
 .second-section {
@@ -96,10 +102,9 @@ a {
 .blue-border {
     height: 150px;
     width: 150px;
-    border: 2px solid dodgerblue;
+    border: 5px solid dodgerblue;
     border-radius: 10px;
     margin: 15px auto;
-
 }
 
 .container {
@@ -117,9 +122,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-.inspiring-thor-width{
+
+.inspiring-thor-width {
     width: 800px;
 }
 
@@ -136,40 +141,41 @@ a {
     justify-content: flex-end;
 }
 
-
 .fourth-section {
     height: 250px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.div-width{
+
+.div-width {
     width: 800px;
     background-color: dodgerblue;
     display: flex;
     justify-content: space-around;
     padding: 40px 30px;
     border-radius: 7px;
-
 }
-.cta{
+
+.cta {
     color: white;
     margin-bottom: 2px;
 }
-.sign{
+
+.sign {
     color: #E5E7EB;
 }
-.right-div-button{
+
+.right-div-button {
     background-color: dodgerblue;
-        font-size: 14px;
-        font-weight: bolder;
-        border-radius: 20px;
-        border-style: none;
-        border: 1px solid white;
-        color: white;
-        padding: 6px 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 20px;
 }
 
 .footer {
@@ -178,7 +184,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .Copyright {
