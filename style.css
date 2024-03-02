@@ -113,6 +113,14 @@ a {
 .third-section {
     padding: 100px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.inspiring-thor-width{
+    width: 800px;
 }
 
 .Inspiring-text {
@@ -127,3 +135,41 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+
+.fourth-section {
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-width{
+    width: 800px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+    border-radius: 7px;
+
+}
+.cta{
+    color: white;
+    margin-bottom: 2px;
+}
+.sign{
+    color: #E5E7EB;
+}
+.right-div-button{
+    background-color: dodgerblue;
+        font-size: 14px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border-style: none;
+        border: 1px solid white;
+        color: white;
+        padding: 6px 20px;
+}
+
+
